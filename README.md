@@ -19,7 +19,7 @@ This repository contains my hands-on assignments completed as part of the **Cogn
 | **Week 1** | Design Patterns & Principles / Data Structures | 🟢 Completed | C#, SOLID Principles, GoF Design Patterns, Data Structures |
 | **Week 2** | Advanced SQL Using SQL Server | 🟢 Completed | T-SQL, Joins, Window Functions, Stored Procedures, Views, Functions |
 | **Week 3** | NUnit & Moq Testing | 🟢 Completed | NUnit, Moq, Unit Testing, Parameterized Tests, Mocking |
-| **Week 4** | Entity Framework Core 8 | ⚪ Pending | ORM, Migrations, DbContext, LINQ |
+| **Week 4** | Entity Framework Core 8 | 🟢 Completed | ORM, Migrations, DbContext, LINQ |
 | **Week 5** | ASP.NET Core 8 Web API | ⚪ Pending | REST APIs, Controllers, Routing, Middleware |
 | **Week 6** | Microservices Architecture | ⚪ Pending | Distributed Systems, JWT Authentication |
 | **Week 7** | Angular Frontend Framework | ⚪ Pending | Components, Services, Routing, HTTP Client |
@@ -38,28 +38,42 @@ week-2/
 │
 └── Advanced_SQL
 
-Week3Handson/
+week-3/
 │
-├── CalcLibrary
-├── CalcLibrary.Tests
-├── CollectionsLib
-├── CollectionsLib.Tests
-├── ConverterLib
-├── ConverterLib.Tests
-├── CustomerCommLib
-├── CustomerComm.Tests
-├── DirectoryExplorer.Tests
-├── FourSeasonsLib
-├── FourSeasonsLib.Tests
-├── LeapYearCalculatorLib
-├── LeapYearCalculatorLib.Tests
-├── MagicFilesLib
-├── PlayersManagerLib
-├── PlayerManager.Tests
-├── UserManagerLib
-├── UserManagerLib.Tests
-├── UtilLib
-└── UtilLib.Tests
+└── NUnit-and-Moq/
+    └── Week3Handson/
+        ├── CalcLibrary
+        ├── CalcLibrary.Tests
+        ├── CollectionsLib
+        ├── CollectionsLib.Tests
+        ├── ConverterLib
+        ├── ConverterLib.Tests
+        ├── CustomerCommLib
+        ├── CustomerComm.Tests
+        ├── DirectoryExplorer.Tests
+        ├── FourSeasonsLib
+        ├── FourSeasonsLib.Tests
+        ├── LeapYearCalculatorLib
+        ├── LeapYearCalculatorLib.Tests
+        ├── MagicFilesLib
+        ├── PlayersManagerLib
+        ├── PlayerManager.Tests
+        ├── UserManagerLib
+        ├── UserManagerLib.Tests
+        ├── UtilLib
+        └── UtilLib.Tests
+
+week-4/
+│
+└── RetailInventory/
+    ├── AppDbContext.cs
+    ├── Category.cs
+    ├── Product.cs
+    ├── ProductDetail.cs
+    ├── ProductDTO.cs
+    ├── Tag.cs
+    ├── Program.cs
+    └── Migrations/
 ```
 
 ---
@@ -182,6 +196,35 @@ Successfully completed unit testing and mocking hands-on exercises using **NUnit
 
 ---
 
+# 📅 Week 4 – Entity Framework Core 8
+
+Successfully completed all 15 hands-on labs covering EF Core fundamentals through advanced topics, using a Retail Inventory System built against SQL Server.
+
+## 🔹 Topics Covered
+
+- ORM fundamentals and EF Core vs EF6
+- DbContext configuration and connection setup
+- Code-First Migrations (CLI)
+- CRUD operations (Insert, Retrieve, Update, Delete)
+- LINQ queries (Where, OrderBy, Select projections)
+- Schema evolution via migrations
+- Data seeding using `HasData()`
+- Eager and Explicit loading strategies
+- One-to-One and Many-to-Many relationships
+- DTOs and handling circular references
+- Query optimization (`AsNoTracking`, compiled queries)
+- Bulk operations
+- Concurrency handling with `RowVersion`
+
+## 🔹 Project: RetailInventory
+
+- `Product`, `Category`, `ProductDetail`, `Tag` entity models
+- `AppDbContext` with SQL Server provider
+- Full migration history from initial schema through relationship and concurrency changes
+- Seeded categories and products via `OnModelCreating`
+
+---
+
 # 🛠️ Technologies Used
 
 - C#
@@ -209,6 +252,7 @@ The assignments demonstrate practical knowledge of:
 - Advanced SQL Programming
 - Unit Testing
 - Mocking using Moq
+- Entity Framework Core & ORM
 - Git & GitHub Version Control
 
 ---
@@ -218,7 +262,7 @@ The assignments demonstrate practical knowledge of:
 - ✅ Week 1 Completed
 - ✅ Week 2 Completed
 - ✅ Week 3 Completed
-- ⏳ Week 4 Pending
+- ✅ Week 4 Completed
 - ⏳ Week 5 Pending
 - ⏳ Week 6 Pending
 - ⏳ Week 7 Pending
@@ -235,6 +279,7 @@ Through these assignments, I have gained practical experience in:
 - Writing optimized SQL queries and database objects.
 - Creating reliable unit tests using NUnit.
 - Mocking external dependencies with Moq.
+- Building data access layers using Entity Framework Core.
 - Managing projects using Git and GitHub.
 
 ---
