@@ -1,5 +1,11 @@
 # Cognizant Digital Nurture 5.0 - Deep Skilling (.NET FSE & Angular)
 
+![C#](https://img.shields.io/badge/C%23-.NET-blue)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET-Core-purple)
+![Angular](https://img.shields.io/badge/Angular-20-red)
+![SQL Server](https://img.shields.io/badge/SQL-Server-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## 👤 Candidate Profile
 
 - **Candidate Name:** Anshuman Dhal
@@ -19,10 +25,10 @@ This repository contains my hands-on assignments completed as part of the **Cogn
 | **Week 1** | Design Patterns & Principles / Data Structures | 🟢 Completed | C#, SOLID Principles, GoF Design Patterns, Data Structures |
 | **Week 2** | Advanced SQL Using SQL Server | 🟢 Completed | T-SQL, Joins, Window Functions, Stored Procedures, Views, Functions |
 | **Week 3** | NUnit & Moq Testing | 🟢 Completed | NUnit, Moq, Unit Testing, Parameterized Tests, Mocking |
-| **Week 4** | Entity Framework Core 8 | 🟢 Completed | ORM, Migrations, DbContext, LINQ |
-| **Week 5** | ASP.NET Core 8 Web API | ⚪ Pending | REST APIs, Controllers, Routing, Middleware |
-| **Week 6** | Microservices Architecture | ⚪ Pending | Distributed Systems, JWT Authentication |
-| **Week 7** | Angular Frontend Framework | ⚪ Pending | Components, Services, Routing, HTTP Client |
+| **Week 4** | Entity Framework Core 8 | 🟢 Completed | ORM, DbContext, LINQ, Migrations, SQL Server |
+| **Week 5** | ASP.NET Core Web API | 🟢 Completed | REST APIs, Controllers, Routing, Middleware, Filters, Swagger |
+| **Week 6** | JWT Authentication Microservice | 🟢 Completed | JWT, Authentication, Authorization, Role-Based Access Control, Swagger |
+| **Week 7** | Angular Frontend Framework | 🟢 Completed | Angular, Components, Routing, Services, Data Binding, Dependency Injection |
 
 ---
 
@@ -32,11 +38,11 @@ This repository contains my hands-on assignments completed as part of the **Cogn
 week-1/
 │
 ├── Design Patterns
-├── Data Structures & Algorithms
+└── Data Structures & Algorithms
 
 week-2/
 │
-└── Advanced_SQL
+└── Advanced_SQL/
 
 week-3/
 │
@@ -74,6 +80,36 @@ week-4/
     ├── Tag.cs
     ├── Program.cs
     └── Migrations/
+
+week-5/
+│
+└── FirstWebAPI/
+    ├── Controllers/
+    ├── Models/
+    ├── Filters/
+    ├── Program.cs
+    ├── appsettings.json
+    └── ...
+
+week-6/
+│
+└── JwtMicroservice/
+    ├── Controllers/
+    ├── Models/
+    ├── Services/
+    ├── Program.cs
+    ├── appsettings.json
+    └── ...
+
+week-7/
+│
+└── student-course-portal/
+    ├── src/
+    ├── components/
+    ├── services/
+    ├── angular.json
+    ├── package.json
+    └── ...
 ```
 
 ---
@@ -225,17 +261,107 @@ Successfully completed all 15 hands-on labs covering EF Core fundamentals throug
 
 ---
 
+# 📅 Week 5 – ASP.NET Core Web API
+
+Successfully developed a RESTful Web API using ASP.NET Core.
+
+## 🔹 Topics Covered
+
+- ASP.NET Core Web API fundamentals
+- Controllers & Routing
+- Action Results
+- CRUD Operations
+- Model Binding
+- Dependency Injection
+- Exception Filters
+- Custom Authentication Filter
+- Swagger API Documentation
+- Postman API Testing
+
+## 🔹 Project: FirstWebAPI
+
+- Employee CRUD API
+- Department & Skills Models
+- Authentication Filter
+- Custom Exception Filter
+- Swagger Integration
+- REST API Testing
+
+---
+
+# 📅 Week 6 – JWT Authentication Microservice
+
+Implemented secure authentication and authorization using JSON Web Tokens (JWT).
+
+## 🔹 Topics Covered
+
+- Microservices Fundamentals
+- JWT Authentication
+- Token Generation
+- Authentication Middleware
+- Authorization
+- Role-Based Authorization
+- Swagger Authentication
+- Secure API Endpoints
+
+## 🔹 Project: JwtMicroservice
+
+- Login API
+- JWT Token Generation
+- Admin Protected APIs
+- Secure Controller
+- Role-Based Access Control
+- Swagger Bearer Token Authentication
+
+---
+
+# 📅 Week 7 – Angular Frontend Framework
+
+Developed a Student Course Portal using Angular standalone components.
+
+## 🔹 Topics Covered
+
+- Angular CLI
+- Components
+- Routing
+- Property Binding
+- Event Binding
+- Two-Way Data Binding
+- Structural Directives
+- Dependency Injection
+- Angular Services
+
+## 🔹 Project: Student Course Portal
+
+- Home Page
+- Student Profile
+- Course List
+- Angular Routing
+- Course Service
+- Dynamic Data Display
+
+---
+
 # 🛠️ Technologies Used
 
 - C#
+- ASP.NET Core
 - .NET
+- Entity Framework Core
+- JWT Authentication
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- SQL Server
 - NUnit
 - Moq
-- SQL Server
-- Entity Framework Core
+- Swagger
+- Postman
 - Git
 - GitHub
 - Visual Studio 2022
+- Visual Studio Code
 
 ---
 
@@ -253,6 +379,9 @@ The assignments demonstrate practical knowledge of:
 - Unit Testing
 - Mocking using Moq
 - Entity Framework Core & ORM
+- RESTful Web API Development
+- JWT Authentication & Authorization
+- Angular Single Page Applications (SPA)
 - Git & GitHub Version Control
 
 ---
@@ -263,9 +392,11 @@ The assignments demonstrate practical knowledge of:
 - ✅ Week 2 Completed
 - ✅ Week 3 Completed
 - ✅ Week 4 Completed
-- ⏳ Week 5 Pending
-- ⏳ Week 6 Pending
-- ⏳ Week 7 Pending
+- ✅ Week 5 Completed
+- ✅ Week 6 Completed
+- ✅ Week 7 Completed
+
+**Overall Progress:** 🎉 **7 / 7 Weeks Completed**
 
 ---
 
@@ -274,13 +405,16 @@ The assignments demonstrate practical knowledge of:
 Through these assignments, I have gained practical experience in:
 
 - Designing maintainable software using SOLID principles.
-- Implementing common design patterns.
-- Solving problems using data structures and algorithms.
+- Implementing GoF Design Patterns.
+- Solving problems using Data Structures & Algorithms.
 - Writing optimized SQL queries and database objects.
-- Creating reliable unit tests using NUnit.
-- Mocking external dependencies with Moq.
-- Building data access layers using Entity Framework Core.
-- Managing projects using Git and GitHub.
+- Developing RESTful Web APIs using ASP.NET Core.
+- Implementing JWT Authentication & Authorization.
+- Building ORM-based applications using Entity Framework Core.
+- Developing Angular Single Page Applications (SPA).
+- Writing unit tests using NUnit & Moq.
+- Using Dependency Injection and Middleware.
+- Managing source code with Git & GitHub.
 
 ---
 
@@ -288,7 +422,7 @@ Through these assignments, I have gained practical experience in:
 
 **Anshuman Dhal**
 
-**B.Tech – Computer Science & Engineering (AI & ML)**  
+**B.Tech – Computer Science & Engineering (AI & ML)**
 **C.V. Raman Global University, Bhubaneswar**
 
 **GitHub:** https://github.com/ANXHUMANBOT
